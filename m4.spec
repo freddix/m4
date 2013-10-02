@@ -1,13 +1,12 @@
 Summary:	GNU Macro Processor
 Name:		m4
-Version:	1.4.16
-Release:	2
+Version:	1.4.17
+Release:	1
 Epoch:		2
 License:	GPL
 Group:		Applications/Text
 Source0:	ftp://ftp.gnu.org/gnu/m4/%{name}-%{version}.tar.xz
-# Source0-md5:	7548ec061a1ba993790159764f522d0e
-Patch0:		gnulib-remove-gets-support.patch
+# Source0-md5:	12a3c829301a4fd6586a57d3fcf196dc
 URL:		http://www.gnu.org/software/m4/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -29,7 +28,6 @@ configure scripts, but not for running configure scripts.
 
 %prep
 %setup -q
-%patch0 -p1
 
 %build
 %{__aclocal} -I m4
