@@ -1,7 +1,8 @@
+# based on PLD Linux spec git://git.pld-linux.org/packages/.git
 Summary:	GNU Macro Processor
 Name:		m4
 Version:	1.4.17
-Release:	1
+Release:	2
 Epoch:		2
 License:	GPL
 Group:		Applications/Text
